@@ -1,0 +1,40 @@
+.App {
+	min-height: 100%;
+	height: auto;
+	box-sizing: border-box;
+	overflow: visible;
+	font-size: 14px;
+	text-align: center;
+	color: #fff;
+	background: url('../assets/bg4.jpg') no-repeat;
+	background-size: cover;
+}
+
+.App < * {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+.App-controll {
+	width: 50%;
+	margin: 0 auto;
+	padding: 10px 0;
+}
+
+.btn-cta {
+	margin: 10px 5px;
+	padding: 10px;
+	text-transform: uppercase;
+	color: #66DBF9;
+	border: none;
+	border: 1px solid #66DBF9;
+	border-radius: 5px;
+	outline: none;
+	background: #11368F;
+	cursor: pointer;
+}
+
+.btn-cta.primary {
+	font-weight: bold;
+}

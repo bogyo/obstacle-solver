@@ -1,0 +1,17 @@
+.message {
+	min-height: 36px;
+	line-height: 18px;
+	text-align: center;
+	font-size: 18px;
+	font-weight: 100;
+}
+
+.message .noroute, .message .required {
+	padding-top: 10px;
+	color: #ff0000;
+}
+
+.message .result {
+	padding-top: 10px;
+	text-shadow: 1px 1px #66DBF9;
+}

@@ -1,0 +1,15 @@
+.action {
+	display: inline-block;
+	margin: 5px;
+	padding: 6px;
+	border: 1px solid #11368F;
+	border-radius: 5px;
+	background: rgba(255, 255, 255, .5);
+	cursor: grab;
+	color: #11368F;
+}
+
+.action.primary {
+	padding: 6px 20px;
+	font-weight: bold;
+}

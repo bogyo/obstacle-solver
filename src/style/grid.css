@@ -1,0 +1,89 @@
+.grid {
+	margin: 15px auto 0;
+	border: 1px solid #66DBF9;
+	-webkit-box-shadow: -5px 5px 16px 2px rgba(102, 219, 249, 0.41);
+	-moz-box-shadow: -5px 5px 16px 2px rgba(102, 219, 249, 0.41);
+	box-shadow: -5px 5px 16px 2px rgba(102, 219, 249, 0.41);
+}
+
+.cell {
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	vertical-align: top;
+	border: 1px solid #66DBF9;
+	background: rgba(0, 0, 0, 0.7);
+}
+
+.cell:hover {
+	background: #11368F;
+}
+
+.highlight {
+	background-color: #74B62E;
+}
+
+.cell .special {
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+	cursor: pointer;
+}
+
+.special:before {
+	display: inline-block;
+	margin-top: 70%;
+	font-size: .8rem;
+	line-height: 100%;
+}
+
+.start {
+	background: url('../assets/start2.png') no-repeat center center;
+}
+
+.start::before {
+	content: 'start';
+	margin-top: 0;
+}
+
+.end {
+	background: url('../assets/landing.png') no-repeat center center;
+}
+
+.end::before {
+	content: 'end';
+}
+
+.boulder {
+	background: url('../assets/boulder.png') no-repeat;
+	background-position: 0 -7px;
+}
+
+.boulder::before {
+	content: 'boulder';
+}
+
+.gravel {
+	background: url('../assets/clock2.png') no-repeat center center;
+}
+
+.gravel:before {
+	content: 'gravel';
+	color: #000;
+}
+
+.entrance {
+	background: url('../assets/portal.jpg') no-repeat center center;
+}
+
+.entrance:before {
+	content: 'entrance';
+}
+
+.exit {
+	background: url('../assets/portal1.gif') no-repeat center center;
+}
+
+.exit:before {
+	content: 'exit';
+}

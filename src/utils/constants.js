@@ -1,0 +1,10 @@
+export const CELLSIZE = 48;
+export const CELLNUMBER = 14;
+export const CELLNUMBERVERTICAL = 9;
+export const START = 'start';
+export const END = 'end';
+export const BOULDER = 'boulder';
+export const GRAVEL = 'gravel';
+export const WORMHOLE_ENTRANCE = 'entrance';
+export const WORMHOLE_EXIT = 'exit';
+export const HIGHLIGHT = 'highlight';
