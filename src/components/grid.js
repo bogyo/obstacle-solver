@@ -11,7 +11,6 @@ import {
 	WORMHOLE_EXIT,
 	HIGHLIGHT
 } from '../utils/constants.js';
-
 import '../style/grid.css';
 
 class Grid extends PureComponent {
@@ -36,7 +35,6 @@ class Grid extends PureComponent {
 		this.props.sendSettings(
 			{action: e.dataTransfer.getData("action"), id, oldId: this.state.selected}
 		);
-
 		return this.setState({selected: null});
 	}
 

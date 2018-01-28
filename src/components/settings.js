@@ -7,11 +7,9 @@ import {
 	WORMHOLE_ENTRANCE,
 	WORMHOLE_EXIT
 } from '../utils/constants.js';
-
 import '../style/settings.css';
 
 const Settings = () => {
-
 	const onDragStart = (action, ev) => {
 		ev.dataTransfer.setData('action', action);
 	}

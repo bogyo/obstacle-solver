@@ -15,7 +15,6 @@ import Grid from './components/grid';
 import './style/app.css';
 
 const Graph = require('node-dijkstra');
-
 const initialSettings = {
 	start: null,
 	end: null,
@@ -51,7 +50,6 @@ export default class App extends PureComponent {
 
 	obstacleChecker(item) {
 		const {boulder, gravel} = this.state;
-
 		if (boulder.indexOf(item) === -1 && gravel.indexOf(item) === -1) {
 			return true;
 		}
@@ -83,7 +81,6 @@ export default class App extends PureComponent {
 
 		for (let i = 0; i < neighbougrs.length; i++) {
 			const edge = 'k' + neighbougrs[i];
-
 			// if edge is not obstacle
 			if (this.obstacleChecker(edge)) {
 				edges[edge] = 1;
@@ -208,7 +205,6 @@ export default class App extends PureComponent {
 		} else {
 			newWormhole[action] = newObstacleValue.concat(value);
 		}
-
 		return newWormhole;
 	}
 
