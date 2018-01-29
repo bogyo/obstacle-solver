@@ -22,9 +22,8 @@ If start/target elements are missing or there is no route to your target the app
 about this situation, otherwise it will show the shortest route highlighted with green color.
 
 For smaller/bigger cells or different number of cells you can rewrite
-CELLSIZE, CELLNUMBER, CELLNUMBERVERTICAL variables under utils/constants.js.
+cellsize, cellnumber, cellnumbervertical variables under utils/constants.js.
 Please note: I tested the style/css of the application mainly with the default settings.
-
 
  ## Possible future development directions
 
